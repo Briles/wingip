@@ -37,12 +37,9 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 ```
+#####Options
 
-    ###### Options
-
-    | Option        | Description                                                           | Default Value |
-    |:------------- |:----------------------------------------------------------------------|:-------------:|
-    | offset        | the distance in pixels the tooltip is offset from the calling element | 0             |
-    | title         | the attribute from which the tooltip's content is retrieved           | 'title'       |
-
-3. Enjoy!
+| Option        | Description                                                           | Default Value |
+|:------------- |:----------------------------------------------------------------------|:-------------:|
+| offset        | the distance in pixels the tooltip is offset from the calling element | 0             |
+| title         | the attribute from which the tooltip's text content is retrieved      | 'title'       |
