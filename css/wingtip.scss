@@ -1,0 +1,87 @@
+$black: hsla(0, 0%, 0%, .72);
+
+.js-wingtip-tooltip {
+    font: normal normal 11px/1.5 Helvetica, arial, sans-serif;
+
+    position: absolute;
+    z-index: 100000;
+
+    display: inline-block;
+
+    padding: 5px 8px;
+
+    color: #FFF;
+    border-radius: 3px;
+    background: $black;
+    .js-wingtip-trail {
+        position: absolute;
+
+        width: 0;
+        height: 0;
+
+        color: $black;
+        border: 5px solid transparent;
+    }
+}
+
+.js-wingtip-nw, .js-wingtip-n, .js-wingtip-ne {
+    .js-wingtip-trail {
+        top: 100%;
+        right: 50%;
+
+        border-top-color: $black;
+    }
+}
+
+.js-wingtip-w {
+    .js-wingtip-trail {
+        right: -10px;
+
+        border-left-color: $black;
+    }
+}
+
+.js-wingtip-e {
+    .js-wingtip-trail {
+        left: -10px;
+
+        border-right-color: $black;
+    }
+}
+
+.js-wingtip-s, .js-wingtip-se, .js-wingtip-sw {
+    .js-wingtip-trail {
+        top: -10px;
+        right: 50%;
+
+        border-bottom-color: $black;
+    }
+}
+
+.js-wingtip-n, .js-wingtip-s {
+    .js-wingtip-trail {
+        left: 50%;
+
+        margin-left: -5px;
+    }
+}
+
+.js-wingtip-w, .js-wingtip-e {
+    .js-wingtip-trail {
+        top: 50%;
+
+        margin-top: -5px;
+    }
+}
+
+.js-wingtip-nw, .js-wingtip-sw {
+    .js-wingtip-trail {
+        right: 9px;
+    }
+}
+
+.js-wingtip-ne, .js-wingtip-se {
+    .js-wingtip-trail {
+        left: 9px;
+    }
+}
