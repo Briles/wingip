@@ -8,7 +8,7 @@ wingtip.js is a pure javascript plugin for displaying simple tooltips. Inspired 
 * * *
 ### Usage
 
-1.  ##### In your HTML, load `wingtip.min.css` and `wingtip.min.js` as such
+1.  In your HTML, load `wingtip.min.css` and `wingtip.min.js` as such
     ```html
     <link rel="stylesheet" href="wingtip.min.css">
     <script src="wingtip.min.js"></script>
@@ -24,7 +24,7 @@ wingtip.js is a pure javascript plugin for displaying simple tooltips. Inspired 
     <a href="#!" class="js-wingtip" data-wingtip="n" title="I'm a northerly tooltip!">I'm tooltipped, yo!</a>
     ```
 
-2.  ##### In your Javascript, call the `wingtip` function after the DOM is ready.
+2.  In your Javascript, call the `wingtip` function after the DOM is ready.
 ```javascript
 // IE9+
 document.addEventListener('DOMContentLoaded', function() {
@@ -40,9 +40,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     ###### Options
 
-    | Option        | Description                                                           | Default Value|
-    | ------------- |:----------------------------------------------------------------------|:------------:|
-    | offset        | the distance in pixels the tooltip is offset from the calling element | 0            |
-    | title         | the attribute from which the tooltip's content is retrieved           | 'title'      |
+    | Option        | Description                                                           | Default Value |
+    |:------------- |:----------------------------------------------------------------------|:-------------:|
+    | offset        | the distance in pixels the tooltip is offset from the calling element | 0             |
+    | title         | the attribute from which the tooltip's content is retrieved           | 'title'       |
 
-3. ##### Enjoy!
+3. Enjoy!
